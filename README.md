@@ -1,53 +1,64 @@
-🎮 Tic Tac Toe
-A basic Tic Tac Toe game built with React.
-This project was created while following a Udemy course and was meant as a practice exercise to learn React fundamentals.
-The core game logic was provided by the lecturer.
+# 🎮 Tic Tac Toe
 
-📌 Features
-Turn-based Tic Tac Toe gameplay
+A basic Tic Tac Toe game built with **React**.  
+This project was created while following a Udemy course as a practice exercise.  
+The game logic was provided by the lecturer — the goal was to focus on implementing the UI and learning core React concepts.
 
-Two-player mode (Player X and Player O)
+---
 
-Dynamic player name editing
+## 📌 Features
 
-Basic move logging
+- 🧑‍🤝‍🧑 Two-player Tic Tac Toe gameplay  
+- 🖋️ Editable player names  
+- 🧠 Game state management using React state  
+- 🗒️ Move log showing previous turns  
+- ✨ UI highlighting for active player  
 
-Highlighting for active player
+---
 
-🛠️ Tech Stack
-React
+## 🛠️ Tech Stack
 
-JavaScript
+- **React**  
+- **JavaScript**  
+- **CSS**
 
-CSS (vanilla)
+---
 
-🚀 Getting Started
-Clone the repository:
-git clone https://github.com/shefket-mustafa/Tic-Tac-Toe.git
+## 🚀 Getting Started
 
-Navigate to the project folder:
-cd Tic-Tac-Toe
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/shefket-mustafa/Tic-Tac-Toe.git
+2. Navigate to the project folder:
+   - cd Tic-Tac-Toe
+3. Install dependencies:
+   - npm install
+4. Start the development server:
+   - npm run dev
 
-Install dependencies:
-npm install
+## 🎯 What I Practiced
 
-Start the development server:
-npm run dev
+- Creating and organizing components in React
 
-🎯 What I Practiced
-Using useState for managing component state
+- Using useState to manage state
 
-Conditional rendering in React
+- Lifting state and passing props
 
-Passing props between components
+- Handling user input and click events
 
-Handling user input
+- Writing conditional JSX
 
-Basic styling with CSS
+- Styling with CSS
 
-Working with Git from the terminal
+- Using Git via terminal
 
-🙏 Acknowledgements
-This project was developed as part of a Udemy React course.
-The game logic was provided by the instructor.
-The goal was to focus on implementation, state management, and learning core concepts.
+  ## 🙏 Acknowledgements
+  
+  -This project was built as part of a Udemy React course.
+  
+  -The instructor provided the main game logic.
+  
+  -The implementation and styling were done while following along for learning purposes.
+
+
+
