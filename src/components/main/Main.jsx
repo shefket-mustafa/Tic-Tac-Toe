@@ -1,3 +1,4 @@
+import GameOver from "../game-over/GameOver";
 import Gameboard from "../gameboard/Gameboard";
 import Log from "../log/Log";
 import Player from "../player/Player";
@@ -74,7 +75,7 @@ export default function Main() {
 
         </ol>
 
-        {winner && <p>You won, {winner}!</p>}
+        {winner && <GameOver winner={winner} />}
         <Gameboard 
         onSelectSquare={handleSelectSquare} 
         board={gameBoard}/>
