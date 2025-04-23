@@ -1,24 +1,16 @@
+import Gameboard from "../gameboard/Gameboard";
+import Player from "../player/Player";
+
 export default function Main() {
   return <main>
     <div id="game-container">
         <ol id="players">
-            <li>
-                <span className="player">
-                <span className="player-name">Player 1</span>
-                <span className="player-symbol-x">X</span>
-                </span>
-                <button>Edit</button>
-            </li>
+            
+            <Player player={'Player 1'} playerSymbol={'X'}/>
+            <Player player={'Player 2'} playerSymbol={'O'}/>
 
-            <li>
-                <span className="player">
-                <span className="player-name">Player 2</span>
-                <span className="player-symbol-x">O</span>
-                </span>
-                <button>Edit</button>
-            </li>
         </ol>
-        Game Board
+        <Gameboard />
     </div>
   </main>
       
