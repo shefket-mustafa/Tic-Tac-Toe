@@ -52,13 +52,6 @@ The game logic was provided by the lecturer — the goal was to focus on impleme
 
 - Using Git via terminal
 
-  ## 🙏 Acknowledgements
-  
-  -This project was built as part of a Udemy React course.
-  
-  -The instructor provided the main game logic.
-  
-  -The implementation and styling were done while following along for learning purposes.
 
 
 
